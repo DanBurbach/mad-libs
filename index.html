@@ -3,47 +3,80 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>A fantastical adventure</title>
+    <title>Mad Libs Crazy</title>
   </head>
   <body>
     <div class="container">
-      <h1>Fill in the blanks to write your story!</h1>
+
+      <div class="jumbotron">
+        <h1>Mad Libs Fun</h1>
+      </div>
       <div id="blanks">
         <form>
           <div class="form-group">
-            <label for="person1">A name</label>
+            <label for="adjective1">An adjective</label>
+            <input id="adjective1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="adjective2">Another adjective</label>
+            <input id="adjective2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="animal1">An animal</label>
+            <input id="animal1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="room">A room in a house</label>
+            <input id="room" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="verbpast1">A past tense verb</label>
+            <input id="verbpast1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="verb1">A verb</label>
+            <input id="verb1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="person1">A persons name</label>
             <input id="person1" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="person2">Another name</label>
-            <input id="person2" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="animal">An animal</label>
-            <input id="animal" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="exclamation">An exclamation</label>
-            <input id="exclamation" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="verb">A past tense verb</label>
-            <input id="verb" class="form-control" type="text">
           </div>
           <div class="form-group">
             <label for="noun">A noun</label>
             <input id="noun" class="form-control" type="text">
           </div>
+          <div class="form-group">
+            <label for="liquid">A liquid</label>
+            <input id="liquid" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="verbending">A verb ending in "ing"</label>
+            <input id="verbending" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="bodypart">A body part</label>
+            <input id="bodypart" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="pluralnoun">A plural noun</label>
+            <input id="pluralnoun" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="noun2">Finally, one more noun</label>
+            <input id="noun2" class="form-control" type="text">
+          </div>
 
-          <button type="submit" class="btn">Show me the story!</button>
+          <button type="submit" class="btn">Show me the Mad Lib!</button>
         </form>
       </div>
 
       <div id="story">
-        <h1>A fantastical adventure</h1>
-        <p>One day, <span class="person1"></span> and <span class="person2"></span> were walking through the woods, when suddenly a giant <span class="animal"></span> appeared. "<span class="exclamation"></span>", <span class="person1"></span> cried. The two of them <span class="verb"></span> as quickly possible, and when they were safe, <span class="person1"></span> and <span class="person2"></span> gave each other a giant <span class="noun"></span>.</p>
+        <h1>Mad Libs Fun!</h1>
+        <p>It was a <span class="adjective1"></span>, cold November day. I woke up to the <span class="adjective2"></span> smell of <span class="animal1"></span> roasting in the <span class="room"></span>downstairs. I <span class="verbpast1"></span> down the stairs to see if I could help <span class="verb1"></span> the dinner. My mom said, "See if <span class="person1"></span> needs a fresh <span class="noun"> </span> ."</p>
+
+        <p>So I carried a tray of glasses full of <span class="liquid"></span> into the <span class="verbending"></span> room. When I got there, I couldn't belive my <span class="bodypart"></span>! There were <span class="pluralnoun"></span> <span class="verbending"> on the <span class="noun2"></span></span>!!!</p>
       </div>
     </div>
   </body>
