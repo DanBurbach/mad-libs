@@ -1,18 +1,18 @@
 $(document).ready(function() {
   $("#blanks form").submit(function(event) {
-    var adjective1 = $("input#adjective1").val();
-    var adjective2 = $("input#adjective2").val();
-    var animal1= $("input#animal1").val();
-    var room = $("input#room").val();
-    var verbpast1 = $("input#verbpast1").val();
-    var verb1 = $("input#verb1").val();
-    var person1 = $("input#person1").val();
-    var noun = $("input#noun").val();
-    var liquid = $("input#liquid").val();
-    var verbending = $("input#verbending").val();
-    var bodypart = $("input#bodypart").val();
-    var pluralnoun = $("input#pluralnoun").val();
-    var noun2 = $("input#noun2").val();
+    var adjective1Input = $("input#adjective1").val();
+    var adjective2Input = $("input#adjective2").val();
+    var animal1Input= $("input#animal1").val();
+    var roomInput = $("input#room").val();
+    var verbpast1Input = $("input#verbpast1").val();
+    var verb1Input = $("input#verb1").val();
+    var person1Input = $("input#person1").val();
+    var nounInput = $("input#noun").val();
+    var liquidInput = $("input#liquid").val();
+    var verbendingInput = $("input#verbending").val();
+    var bodypartInput = $("input#bodypart").val();
+    var pluralnounInput = $("input#pluralnoun").val();
+    var noun2Input = $("input#noun2").val();
 
     $(".adjective1").text(adjective1Input);
     $(".adjective2").text(adjective2Input);
