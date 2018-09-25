@@ -1,0 +1,13 @@
+.jumbotron {
+background-image: url("https://images.freeimages.com/images/large-previews/51d/random-letters-1457526.jpg");
+background-size: cover;}
+
+.jumbotron h1{
+  color: white;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+#story {
+  display: none;
+}
